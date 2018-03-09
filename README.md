@@ -1,4 +1,4 @@
-# videoApp
+# Roku Video App
 Node-based video app served with Express and using Handlebars as rendering engine.
 
 ## Getting Started
@@ -30,7 +30,7 @@ Grunt is implemented as a task runner for this project. Grunt tasks include: con
 grunt watch
 ```
 
-Furthermore, it is necessary to import the database content located on the folder called database to local application. It is possible to import it using PHPMyAdmin interface or via command line:
+Furthermore, it is necessary to import the database content located on the database folder database to local application. It is possible to import it using PHPMyAdmin interface or via command line:
 
 ```
 mysql -h localhost -u <user> -p <password> <database name> < db_videoapp.sql
